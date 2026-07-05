@@ -1,0 +1,36 @@
+# Python / Virtual Environment
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/test_placement.db
+
+# Databases
+*.db
+*.db-journal
+*.sqlite3
+
+# Node / Frontend dependencies
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# Uploads and files
+backend/uploads/
+uploads/
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
